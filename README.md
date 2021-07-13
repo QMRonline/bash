@@ -5,3 +5,18 @@ If you know the right Bash commands, you can do all sorts of things. In this gui
 
 Requirements
 To follow along, all you'll need is an Ubuntu or Kali Linux system. Really, any Linux system will do. If you want to pick up a Linux system and you've never tried this before, you can always grab a Raspberry Pi or another single-board computer to run a Linux build on.
+
+Find You Bash Interpreter
+To get started, we need to know which Bash interpreter we're using. To do so, use which bash in a terminal window. Learning the location of the interpreter will be useful when writing our first Bash script.
+
+~# which bash
+
+usr/bin/bash
+
+Make Your First Bash Script
+To start a new Bash script, create and open a new Bash file called "bash.sh" or whatever you want to call it. The important thing is that it ends in the "sh" extension. We'll be creating a super basic script to illustrate one easy thing it can.
+
+~# nano bash.sh
+In the document, start the first line with a shebang (#!) followed by the location of your Bash interpreter (for me, it's usr/bin/bash). When the program is opened, this will tell it how to interpret the language we're writing the rest of the script in.
+
+#! /usr/bin/bash
