@@ -1,0 +1,2 @@
+# bash
+Bash scripting is a convenient way to automate things on any Linux system, and we're going to use it here to automate certain tasks we use all the time.  Bash is a simple language for stringing together several different Linux utilities. Its simplicity makes it easy for beginners to create lots of scripts that would otherwise be pretty complicated or require some pretty hefty programming skills.
